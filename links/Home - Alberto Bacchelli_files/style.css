@@ -1,0 +1,294 @@
+
+/*
+General stuff
+*/
+body{
+	
+	
+	min-width:820px;
+	max-width:860px;
+	border:1px solid #000000;
+
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	font-family: georgia, serif;
+	font-size: 12pt;
+	text-align: justify;
+	color: #333;
+	background: #E0E0E0;
+}
+
+img {
+	align: center;
+}
+
+hr{
+	display:none;
+}
+
+ul{
+	list-style:none;
+	padding-left:10px;
+	margin-left:0px;
+}
+
+ul.news{
+	list-style:square;
+	padding-left:18px;
+	margin-left:0px;
+}
+
+ul.news li {
+    padding-bottom: 10px;
+    padding-left:0px;
+}
+
+ul li{
+	padding-left:10px;
+	margin-bottom:4px;
+	//background: url("../images/cross1.png") no-repeat left 0.2em;
+}
+
+ol li{
+	list-style-type: upper-roman;
+	background:none;
+	padding-left:0px;
+}
+
+note {
+    background:none repeat scroll 0 0 yellow;
+    font-size: 9px;
+}
+
+blockquote.quotee{
+	text-align: right;
+}
+
+
+/*h1 used for the title on each page*/
+h1{
+	font-family: arial, sans-serif;
+	font-size:1.8em;
+	font-weight:normal;
+	color:#000;
+}
+
+
+
+h2{
+	font-family: arial, sans-serif;
+	font-size:1.4em;
+	font-weight:normal;
+	color:#000;
+	border-bottom:1px solid #000;
+	margin-top:30px;
+}
+
+h3{
+	font-family: arial, sans-serif;
+	font-size:1.1em;
+	font-weight:normal;
+	color:#000;
+	margin-bottom:6px;
+}
+
+em{
+	font-family: georgia, times, serif;
+	font-style: italic;
+}
+
+strong{
+	color:#000;
+	font-weight:bold;
+	}
+
+a{
+	color: #850707;
+	text-decoration:underline; 
+}
+
+a:hover{
+	color: #ae0016;
+}
+
+
+a img{
+	/*make sure there are no borders with links on from images, particularly in Mozilla/Firefox */
+	border:0;
+}
+
+
+
+
+#header{
+	background: url("../images/headerBackground.jpg");
+	height:150px;
+	
+	padding-top:38px;
+	padding-right:80px;
+	
+
+}
+
+#header p {
+	padding-top: 92px;
+	font-family: helvetica,sans-serif;
+	font-size: 30px;
+	text-align:right;
+	//color: #c4b3a3;
+	color: #eee;
+}
+
+#header.TI2205 {
+	background: url("../images/header_teaching.jpg");
+	height:150px;
+	
+	padding-top:38px;
+	padding-right:80px;
+}
+
+#header.TI2206 {
+	background: url("../images/header_teaching.jpg");
+	height:150px;
+	
+	padding-top:38px;
+	padding-right:80px;
+}
+
+
+/*
+Navigation
+*/
+#navigation {
+	font-family: arial, sans-serif;
+	margin:0px;
+//	padding-left: 10px;
+	padding-top:10px;
+	height:20px;
+	border-bottom:2px solid #EEE;
+	background: #000000 repeat-X top;
+	font-size: 10pt;
+}
+
+#navigation ul{
+	text-align:center;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+#navigation li{
+//	padding-left:6px;
+	padding-right:10px;
+	padding-bottom:6px;
+	background:none;
+//	border-left: 1px solid #EEE;
+//	border-right: 1px solid #EEE;;
+	display:inline;
+}
+
+#navigation a{
+	//color:#c4b3a3;
+	color:#eee;
+	text-decoration:none;
+}
+
+#navigation a:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+
+#navigation #currentsection{
+	color:#000;
+	padding-top:5px;
+	font-weight:bold;
+	background: #EEE repeat-X top;
+}
+
+#navigation #currentsection a{
+	color:#000;
+}
+
+
+#navigation2 {
+	font-family: arial, sans-serif;
+	margin:0px;
+	padding-left: 10px;
+	padding-top:5px;
+	height:18px;
+//	border-bottom:2px solid #EEE;
+	background: #EEE repeat-X top;
+}
+
+#navigation2 ul{
+	text-align:center;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+#navigation2 li{
+//	padding-left:6px;
+//	padding-right:10px;
+	padding-bottom:6px;
+	background:none;
+//	border-right: 1px solid #000;
+	display:inline;
+}
+
+#navigation2 a{
+	//color:#c4b3a3;
+	color:#000;
+	text-decoration:none;
+}
+
+#navigation2 a:hover{
+	color:#000;
+	text-decoration: underline;
+}
+
+#navigation2 #currentsection{
+	color:#000;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+
+/*use this to make a list with a bit of space between items
+	it's useful if styling lists of chunks of text rather than a single line*/
+.spacedlist li{
+	margin-bottom:5px;
+}
+
+/*
+Main content of page
+*/
+#main {
+	padding:20px 50px 10px 50px;
+	border-top:1px solid #000;
+	background:#FFF;
+    min-height: 400px;
+}
+
+
+
+
+/*
+Footer
+*/
+#footer{
+	clear:both;
+	padding:5px 100px;
+	border-top:2px solid #000;
+	font-size:0.9em;
+//	background:none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+	background:#FFF;
+	text-align: center;
+}
+

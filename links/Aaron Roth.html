@@ -1,0 +1,989 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0033)http://www.cis.upenn.edu/~aaroth/ -->
+<html class="gr__cis_upenn_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<script async="" src="./Aaron Roth_files/analytics.js"></script><script type="text/javascript" async="" src="./Aaron Roth_files/ga.js"></script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1751406-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  
+  <title>Aaron Roth</title><style type="text/css">/*.lleo_errorSelection *::-moz-selection,
+.lleo_errorSelection *::selection,
+.lleo_errorSelection *::-webkit-selection {
+    background-color: red !important;
+    color: #fff !important;;
+}*/
+
+#lleo_dialog,
+#lleo_dialog * {
+    color: #000 !important;
+    font: normal 13px Arial, Helvetica !important;
+    line-height: 15px !important;
+    margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none 0 !important;
+	position: static !important;
+	vertical-align: baseline !important;
+	overflow: visible !important;
+	width: auto !important;
+	height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+	float: none !important;
+	visibility: visible !important;
+	text-align: left !important;
+    text-transform: none !important;
+	border-collapse: separate !important;
+	border-spacing: 2px !important;
+    box-sizing: content-box !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+    letter-spacing: normal !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    filter: none !important;
+}
+#lleo_dialog *:before,
+#lleo_dialog *:after {
+    content: '';
+}
+
+#lleo_dialog iframe {
+	height: 0 !important;
+	width: 0 !important;
+}
+
+#lleo_dialog {
+    position: absolute !important;
+    background: #fff !important;
+    border: solid 1px #ccc !important;
+    padding: 7px 0 0 !important;
+    left: -999px;
+    top: -999px;
+    width: 440px !important;
+    overflow: hidden;
+    display: block !important;
+    z-index: 999999999 !important;
+    box-shadow: 8px 16px 30px rgba(0, 0, 0, 0.16) !important;
+    border-radius: 3px !important;
+    opacity: 0 !important;
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+    transform: translateY(15px);
+}
+#lleo_dialog.lleo_show_small {
+    width: 150px !important;
+}
+#lleo_dialog.lleo_show {
+    opacity: 1 !important;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s !important;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s !important;
+    -ms-transition: -ms-transform 0.3s, opacity 0.3s !important;
+    -o-transition: -o-transform 0.3s, opacity 0.3s !important;
+    transition: transform 0.3s, opacity 0.3s !important;
+}
+#lleo_dialog.lleo_collapse {
+    opacity: 0 !important;
+    -webkit-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -moz-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -ms-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -o-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s !important;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s !important;
+    -ms-transition: -ms-transform 0.4s, opacity 0.4s !important;
+    -o-transition: -o-transform 0.4s, opacity 0.4s !important;
+    transition: transform 0.4s, opacity 0.4s !important;
+}
+#lleo_dialog input::-webkit-input-placeholder {
+    color: #aaa !important;
+}
+#lleo_dialog .lleo_has_pic #lleo_word {
+	margin-right: 80px !important;
+}
+#lleo_dialog #lleo_translationsContainer1 {
+	position: relative !important;
+}
+#lleo_dialog #lleo_translationsContainer2 {
+	padding: 7px 0 0 !important;
+	vertical-align: middle !important;
+}
+#lleo_dialog #lleo_word {
+    color: #000 !important;
+    margin: 0 5px 2px 0 !important;
+    /*float: left !important;*/
+}
+#lleo_dialog .lleo_has_sound #lleo_word {
+    margin-left: 30px !important;
+}
+#lleo_dialog #lleo_text {
+    font-weight: bold !important;
+    color: #d56e00 !important;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+/*
+#lleo_dialog #lleo_text.lleo_known {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+*/
+/*#lleo_dialog #lleo_closeBtn {
+    position: absolute !important;
+    right: 6px !important;
+    top: 5px !important;
+    line-height: 1px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 0 !important;
+    color: #aaa !important;
+    display: block !important;
+	z-index: 9999999999 !important;
+	width: 7px !important;
+	height: 7px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}*/
+
+#lleo_dialog #lleo_optionsBtn {
+    position: absolute !important; 
+    right: 3px !important;
+    top: 5px !important;
+    line-height: 1px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+    color: #aaa !important;
+    padding: 2px !important;
+	display: none;
+}
+    #lleo_dialog.lleo_optionsShown #lleo_optionsBtn {
+        display: block !important;
+    }
+    #lleo_dialog #lleo_optionsBtn img {
+        width: 12px !important;
+        height: 12px !important;
+    }
+#lleo_dialog #lleo_sound {
+    float: left !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-left: 9px !important;
+    margin-right: 3px !important;
+    background: 0 0 no-repeat !important;
+    cursor: pointer !important;
+    display: none !important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0U01IVFEU/u57Oo5WhBRIBBptykWLYBa2soWiEKQQEbrSFsGbVRQKQc2iFqGitXqvjQxCoCJCqyI0aBUtZILaJNUuYWYWo8HovJ/707nP94bnz0rxwvfOuefd8517fi5TSuE4i50YwZ3l37ZhNlpgzFkaaM/G9sHF1YskNrT+7l4PjMOcb78t2JL71uxgB+2UlfxHTtq5N94fIOh/88kWgWfl73ZCSQkpeGg3H091JY6dI2S00qA/N3KO3dDUYhFgEmZGurG+w9FqApIHsVM7kaTF9Nhn0r8Q7hPWQgIRuNaH3AMUA4W/Lkdh04cpFS43G0TgxQTvCdMETVAk3KynIHwXZU/ge8XDt7KH9bKLjU0P2zVO5LsEpSejVRJ9UR18EtfqKegovs9R3Q6w9c/H1o4Aa2Jwm1lIvn9RJ4w9RdRRzqcYrpwycCll4Cy1lnkS3Bc6vfBg28v8aRIfI78zhB/1GygROH3jLyyzMQ0zlUZuZBSlKkeLoegGtTjYLcJ8pF+NakHOFC2J6w+f25mxSfWrWFF/ShXVPTGvtN14NNkVnxlYWJkgZEL7/vwKr55lKSVnaGYWkuYgrgG172uUv47+U7fw0EHaJXmalUQy/HqO6lBzEsVjJC4Q8kd6TETQpjuaGOvjv8b/AgwA/ij1XMx58NIAAAAASUVORK5CYII=) !important;
+}
+#lleo_dialog .lleo_has_sound #lleo_sound {
+    display: block !important;
+}
+
+#lleo_dialog #lleo_soundWave {
+    border: solid 5px #4495CC !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    left: -5px !important;
+    top: -5px !important;
+    right: -5px !important;
+    bottom: -5px !important;
+    z-index: 0 !important;
+    opacity: 0.9 !important;
+    display: none !important;
+}
+    #lleo_dialog #lleo_soundWave.lleo_beforePlaying {
+        display: block !important;
+    }
+    #lleo_dialog #lleo_soundWave.lleo_playing {
+        opacity: 0 !important;
+        border-width: 20px !important;
+        border-radius: 30px !important;
+
+        -webkit-transform: scale(1.07,1.1) !important;
+        -moz-transform: scale(1.07,1.1) !important;
+        -ms-transform: scale(1.07,1.1) !important;
+        transform: scale(1.07,1.1) !important;
+
+        -webkit-transition: all 0.6s !important;
+        -moz-transition: all 0.6s !important;
+        -ms-transition: all 0.6s !important;
+        transition: all 0.6s !important;
+    }
+
+
+#lleo_dialog #lleo_picOuter {
+    position: absolute !important;
+    float: right !important;
+    top: 4px;
+    right: 5px;
+    z-index: 9 !important;
+    display: none !important;
+    width: 100px !important;
+}
+    #lleo_dialog.lleo_optionsShown #lleo_picOuter {
+        right: 25px;
+    }
+#lleo_dialog .lleo_has_pic #lleo_picOuter {
+    display: block !important;
+}
+    #lleo_dialog #lleo_picOuter:hover {
+        width: auto !important;
+        z-index: 11 !important;
+    }
+#lleo_dialog #lleo_pic,
+#lleo_dialog #lleo_picBig {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    border: solid 2px #fff !important;
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+	border-radius: 2px !important;
+    z-index: 1 !important;
+}
+#lleo_dialog #lleo_pic {
+	position: relative !important;
+    border: none !important;
+	width: 30px !important;
+}
+#lleo_dialog #lleo_picBig {
+    box-shadow: -1px 2px 4px rgba(0,0,0,0.3);
+    z-index: 2 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+    #lleo_dialog #lleo_picOuter:hover #lleo_picBig {
+        visibility: visible !important;
+        opacity: 1 !important;
+        -webkit-transition: opacity 0.3s !important;
+        -webkit-transition-delay: 0.3s !important;
+    }
+#lleo_dialog #lleo_transcription {
+    margin: 0 80px 4px 31px !important;
+    color: #aaaaaa !important;
+}
+#lleo_dialog .lleo_no_trans {
+    color: #aaa !important;
+}
+
+#lleo_dialog .ll-translation-counter {
+	float: right !important;
+    font-size: 11px !important;
+    color: #aaa !important;
+    padding: 2px 2px 1px 10px !important;
+}
+
+#lleo_dialog .ll-translation-text {
+	float: left !important;
+	/*width: 80% !important;*/
+}
+
+#lleo_dialog #lleo_trans a {
+    color: #3F669F !important;
+    text-decoration: none !important;
+    text-overflow: ellipsis !important;
+    padding: 1px 4px !important;
+    overflow: hidden !important;
+    float: left !important;
+    width: 320px !important;
+}
+
+#lleo_dialog .ll-translation-item {
+    color: #3F669F !important;
+    border: solid 1px #fff !important;
+    padding: 3px !important;
+    width: 100% !important;
+    float: left !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+}
+
+#lleo_dialog .ll-translation-item:hover {
+	border: solid 1px #9FC2C9 !important;
+    background: #EDF4F6 !important;
+	cursor: pointer !important;
+}
+#lleo_dialog .ll-translation-item:hover .ll-translation-counter {
+	color: #83a0a6 !important;
+}
+
+#lleo_dialog .ll-translation-marker {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAWSURBVBhXY7RPm/+fAQkwIXNAbMICAJQ8AkvqWg/SAAAAAElFTkSuQmCC) !important;
+    display: inline-block !important;
+    width: 4px !important;
+    height: 4px !important;
+    margin: 7px 5px 2px 2px !important;
+    float: left !important;
+}
+
+#lleo_dialog #lleo_icons {
+    color: #aaa !important;
+    font-size: 11px !important;
+    background: #f8f8f8 !important;
+    padding: 10px 10px 10px 16px !important;
+}
+#lleo_icons a {
+    display: inline-block !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 10px -4px 3px !important;
+    text-decoration: none !important;
+    opacity: 0.5 !important;
+    background: url(data:image/png;base64,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) !important;
+}
+#lleo_icons a:hover {
+    opacity: 1 !important;
+}
+#lleo_icons a.lleo_google     {background-position:-34px 0 !important;}
+#lleo_icons a.lleo_multitran  {background-position:-64px 0 !important;}
+#lleo_icons a.lleo_lingvo     {background-position:-51px 0 !important; width: 12px !important;}
+#lleo_icons a.lleo_dict       {background-position:-17px 0 !important;}
+#lleo_icons a.lleo_linguee    {background-position:-81px 0 !important;}
+#lleo_icons a.lleo_michaelis  {background-position:-98px 0 !important;}
+
+#lleo_dialog #lleo_contextContainer {
+    margin: 0 !important;
+    padding: 3px 15px 8px 10px !important;
+    background: #eee !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)) !important;
+    background: -moz-linear-gradient(-90deg, #fff, #eee) !important;
+    border-bottom: solid 1px #ddd !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    display: none !important;
+    overflow: hidden !important;
+}
+#lleo_dialog .lleo_has_context #lleo_contextContainer {
+    display: block !important;
+}
+#lleo_dialog #lleo_context {
+    color: #444 !important;
+    text-shadow: 1px 1px 0 #f4f4f4 !important;
+    line-height: 12px !important;
+    font-size: 11px !important;
+    margin-left: 2px !important;
+}
+#lleo_dialog #lleo_context b {
+    line-height: 12px !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+/*#lleo_dialog #lleo_gBrand {
+    color: #aaa !important;
+    font-size: 10px !important;
+    *//*padding-right: 52px !important;*//*
+    padding-bottom: 14px !important;
+    margin: -3px 4px 0 4px !important;
+    background: left bottom url(data:image/png;base64,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) no-repeat !important;
+    display: inline-block !important;
+    float: right !important;
+}
+#lleo_dialog #lleo_gBrand.hidden {
+    display: none !important;
+}*/
+#lleo_dialog #lleo_translateContextLink {
+    color: #444 !important;
+    text-shadow: 1px 1px 0 #f4f4f4 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#ddd)) !important;
+    background: -moz-linear-gradient(-90deg, #f4f4f4, #ddd) !important;
+    border: solid 1px !important;
+    box-shadow: 1px 1px 0 #f6f6f6 !important;
+    border-color: #999 #aaa #aaa #999 !important;
+    -moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+    padding: 0 3px !important;
+    font-size: 11px !important;
+    text-decoration: none !important;
+    margin: 1px 5px 0 !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+#lleo_dialog #lleo_translateContextLink:hover {
+    background: #f8f8f8 !important;
+}
+#lleo_dialog #lleo_translateContextLink.hidden {
+    visibility: hidden !important;
+}
+
+#lleo_dialog #lleo_setTransForm {
+    display: block !important;
+    margin-top: 3px !important;
+    padding-top: 5px !important;
+    /* Set position and background because the form might be overlapped by an image when no translations */
+    position: relative !important;
+    background: #fff !important;
+    z-index: 10 !important;
+    padding-bottom: 10px !important;
+    padding-left: 16px !important;
+}
+#lleo_dialog .lleo-custom-translation {
+    padding: 4px 5px !important;
+    border: solid 1px #ddd !important;
+	border-radius: 2px !important;
+    width: 90% !important;
+    min-width: 270px !important;
+    background: -webkit-gradient(linear, 0 0, 0 20, from(#f1f1f1), to(#fff)) !important;
+    background: -moz-linear-gradient(-90deg, #f1f1f1, #fff) !important;
+	font: normal 13px Arial, Helvetica !important;
+	line-height: 15px !important;
+}
+#lleo_dialog .lleo-custom-translation:hover {
+    border: solid 1px #aaa !important;
+}
+#lleo_dialog .lleo-custom-translation:focus {
+    background: #FFFEC9 !important;
+}
+
+#lleo_dialog *.hidden {
+    display: none !important;
+}
+
+#lleo_dialog .infinitive{
+    color: #D56E00 !important;
+    text-decoration: none;
+    border-bottom: 1px dotted #D56E00 !important;
+}
+#lleo_dialog .infinitive:hover{
+    border: none !important;
+}
+
+#lleo_dialog .lleo_separator {
+    height: 1px !important;
+    background: #eee;
+    margin-top: 10px !important;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, #eee 8%, rgba(255,255,255,1) 80%) !important;
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+}
+#lleo_dialog #lleo_trans {
+    /*border-top: 1px solid #eeeeee !important;*/
+    padding: 5px 30px 0 14px !important;
+    zoom: 1;
+}
+
+#lleo_dialog .lleo_clearfix {
+	display: block !important;
+	clear: both !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	font-size: 0 !important;
+}
+
+
+#lleo_dialog #lleo_picOuter table {
+    width: 44px !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    vertical-align: middle !important;
+}
+
+#lleo_dialog #lleo_picOuter td {
+    width: 38px !important;
+    height: 38px !important;
+    /*border: 1px solid #eeeeee !important;*/
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+#lleo_dialog #lleo_picOuter td div {
+	height: 38px !important;
+	overflow: hidden !important;
+}
+
+#lleo_dialog .lleo_empty {
+    margin: 0 5px 7px !important;
+}
+
+#lleo_youtubeExportBtn {
+    margin-left: 10px;
+    height: 24px;
+}
+    #lleo_youtubeExportBtn i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: 0 0 url(https://d144fqpiyasmrr.cloudfront.net/plugins/all/images/i16.png) !important;
+    }
+    #lleo_youtubeExportBtn .yt-uix-button-content {
+        font-size: 12px;
+        line-height: 2px;
+    }
+
+
+/*** Parsed Lyrics Content *****************************/
+
+.lleo_lyrics tran {
+    background: transparent !important;
+    border-radius: 2px !important;
+    text-shadow: none !important;
+    cursor: pointer !important;
+}
+    .lleo_lyrics tran:hover {
+        color: #fff !important;
+        background: #C77213 !important;
+        -webkit-transition: all 0.1s !important;
+        -moz-transition: all 0.1s !important;
+        -ms-transition: all 0.1s !important;
+        -o-transition: all 0.1s !important;
+        transition: all 0.1s !important;
+    }
+
+.lleo_songName {
+    border: solid 1px #ffd47c;
+    background: #fff1c2;
+    border-radius: 2px;
+}
+
+.lleo_hidden_iframe {
+    visibility: hidden;
+}</style></head><body style="color: rgb(0, 0, 0); background-color: rgb(250, 255, 219);" alink="#000099" link="#000099" vlink="#990099" data-gr-c-s-loaded="true">
+<div style="text-align: center;">
+<h1><a class="mozTocH1" name="mozTocId352558"></a>Aaron Roth</h1>
+<div style="text-align: left;">
+<h1><img style="border: 4px solid ; width: 360px; height: 372px; float: right;" alt="Photo of me" src="./Aaron Roth_files/misleadinglyfancy.jpg"><br>
+</h1>
+<big><big>About Me</big></big><br>
+<br>
+I am the class of 1940 Bicentennial Term Associate Professor of Computer and Information Science at the <a href="http://www.upenn.edu/">University of Pennsylvania</a> <a href="http://www.cis.upenn.edu/">computer science department</a>, associated with <a href="http://theory.cis.upenn.edu/">the theory group</a>, the <a href="http://www.warrencenter.upenn.edu/">Warren Center for Network and Data Sciences</a>, and am co-director of our program in <a href="http://www.nets.upenn.edu/">Networked and Social Systems Engineering</a>. I am also affiliated with the <a href="http://www.amcs.upenn.edu/">AMCS</a> program (Applied Mathematics and Computational Science). I spent a year as a postdoc at <a href="http://research.microsoft.com/en-us/labs/newengland/default.aspx">Microsoft Research New England</a>. Before that, I received my PhD from <a href="http://theory.cs.cmu.edu/">Carnegie Mellon University</a>, where I was fortunate to have been advised by <a href="http://www.cs.cmu.edu/~avrim">Avrim Blum</a>.
+My main interests are in algorithms and machine learning,
+and specifically in the areas of private data analysis, fairness in machine learning, game theory and mechanism design, and learning theory.
+ I am the recipient of a <a href="https://www.whitehouse.gov/the-press-office/2016/02/18/president-obama-honors-extraordinary-early-career-scientists">Presidential Early Career Award for Scientists and Engineers</a> (<a href="http://www.nsf.gov/news/news_summ.jsp?cntn_id=137709">PECASE</a>), an <a href="http://www.sloan.org/fileadmin/media/files/srf/APS_2015_Research_Fellowships_ad_FINAL.pdf">Alfred P. Sloan Research Fellowship</a>, an NSF CAREER award, a Google Faculty Research Award, and a Yahoo Academic Career Enhancement award.
+<br><br>
+<center>
+ For more information, see my <a href="http://www.cis.upenn.edu/~aaroth/CV.pdf">CV</a>. 
+</center>
+<br>
+
+My lovely wife Cathy just got her PhD in math
+at MIT. At her insistence, I link to <a href="http://math.mit.edu/~clennon/">her website</a><br>
+<br>
+<big><big>Contact Information</big></big><br>
+<br>
+Office: 3401 Walnut Street, room 406b <br>
+Phone: 215-746-6171 <br>
+Email: aar<a href="http://www.google.com/recaptcha/mailhide/d?k=01uD3iqNTHKAEHmfKjRDi9TQ==&amp;c=8y35H5f4GCVwEMBFujcW7VIwmxdblsYa7OTDsVphl1M=" onclick="window.open(&#39;http://www.google.com/recaptcha/mailhide/d?k\07501uD3iqNTHKAEHmfKjRDi9TQ\75\75\46c\758y35H5f4GCVwEMBFujcW7VIwmxdblsYa7OTDsVphl1M\075&#39;, &#39;&#39;, &#39;toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300&#39;); return false;" title="Reveal this e-mail address">...</a>@cis.upenn.edu (Click to reveal my email address)<br>
+<br>
+
+
+<big><big>Teaching</big></big><br>
+<br>
+Previous courses:
+<ul>
+<li>Fall 2017: CIS 700 -- <a href="https://adaptivedataanalysis.com/">The Algorithmic Foundations of Adaptive Data Analysis</a>.</li> 
+<li>Spring 2017, Spring 2015, Fall 2013, Spring 2012: NETS 412 -- <a href="http://www.cis.upenn.edu/~aaroth/courses/agtS17.html">Algorithmic Game Theory</a>.
+</li><li>Fall 2016, 2014, 2012: CIS 262 -- <a href="http://www.seas.upenn.edu/~cse262/">Automata, Computability, and Complexity</a>.
+</li><li> Spring 2014: CIS 700 -- <a href="http://www.cis.upenn.edu/~aaroth/courses/gametheoryprivacyS14.html">a seminar on the applications of Differential Privacy to Game Theory and Mechanism Design</a></li>
+<li> Spring 2013: CIS 700 -- <a href="http://www.cis.upenn.edu/~aaroth/courses/noregrets.html">No Regrets in Game Theory and Learning</a></li>
+<li> Spring 2013: MKSE 150 -- <a href="http://www.cis.upenn.edu/~mkse150/">Market and Social Systems on the Internet</a></li>
+<li> Fall 2011: CIS 800 -- <a href="http://www.cis.upenn.edu/~aaroth/courses/privacyF11.html">The Algorithmic Foundations of Data Privacy</a></li>
+</ul>
+<br>
+
+I'm fortunate to be able to work with several excellent graduate students and postdocs.<br>
+<b>Current:</b>
+<ul>
+  <li> <a href="http://www.its.caltech.edu/~jziani/">Juba Ziani</a> (Visiting PhD student)</li>
+  <li> <a href="http://www.cis.upenn.edu/~majos">Matthew Joseph</a></li>
+  <li> <a href="https://sethstatistics.wordpress.com/">Seth Neel</a> (co-advised by Michael Kearns) </li>
+  <li> <a href="http://www.cis.upenn.edu/~ianzach">Zachary Schutzman</a></li>
+  <li> <a href="https://www.math.upenn.edu/~jinshuo/">Jinshuo Dong</a></li>
+  <li> <a href="http://www.cis.upenn.edu/~chrjung/">Christopher Jung</a> (co-advised by Michael Kearns)</li>
+</ul>
+<b>Alumni:</b>
+<ul>
+    <li> <a href="http://www.bowaggoner.com/index.html">Bo Waggoner</a> (Warren Center Postdoctoral Fellow). Microsoft Research NYC -&gt; University of Colorado Boulder</li>
+    <li> <a href="http://jamiemorgenstern.com/">Jamie Morgenstern</a> (Warren Center Postdoctoral Fellow). Georgia Tech CS</li>
+    <li> <a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a> (PhD student co-advised with Benjamin Pierce). UCL/Cornell -&gt; University of Wisconsin</li>
+    <li> <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a> (PhD student co-advised with Michael Kearns). Microsoft Research NYC -&gt; University of Minnesota. (Morris and Dorothy Rubinoff Award for Best Thesis)</li>
+    <li> <a href="http://hans.math.upenn.edu/~ryrogers/">Ryan Rogers</a> (PhD student co-advised with Michael Kearns). Apple, Inc. (differential privacy engineer)</li>
+    <li> <a href="http://i.cs.hku.hk/~zhiyi/">Zhiyi Huang</a> (PhD student co-advised with Sampath Kannan). Stanford -&gt; University of Hong Kong. (Morris and Dorothy Rubinoff Award for Best Thesis)</li>
+    <li> <a href="http://people.orie.cornell.edu/kriyer/">Kris Iyer</a> (Postdoc, jointly hosted with Michael Kearns and Mallesh Pai). Cornell ORIE.</li>
+    <li>Yang Jiao (BS/MS student). PhD student at CMU</li>
+    <li> <a href="http://pwp.gatech.edu/rachel-cummings/">Rachel Cummings</a> (Visiting PhD student) Georgia Tech ISYE </li>
+</ul>
+<br>
+
+
+
+<big><big>Books and Surveys</big></big><br>
+<ol>
+  <li><a href="http://www.cis.upenn.edu/~aaroth/privacybook.html">The Algorithmic Foundations of Differential Privacy</a>. Joint with <a href="http://research.microsoft.com/en-us/people/dwork/">Cynthia Dwork</a>. Foundations and Trends in Theoretical Computer Science, NOW Publishers. 2014.</li>
+  <li><a href="http://www.cis.upenn.edu/~aaroth/privacyMDsurvey.html">Privacy and Mechanism Design</a>. Joint with <a href="http://www.malleshmpai.com/">Mallesh Pai</a>. SIGecom Exchanges, 2013.</li> 
+</ol>
+<br>
+<big><big>Recent and Selected Publications</big></big><br>
+&nbsp;(See <a href="http://www.cis.upenn.edu/~aaroth/publications.html">here</a> for all publications, or my <a href="https://scholar.google.com/citations?user=kLUQrrYAAAAJ&amp;hl=en" onclick="var that=this;_gaq.push([&#39;_trackEvent&#39;,&#39;Download&#39;,&#39;PDF&#39;,this.href]);setTimeout(function(){location.href=that.href;},400);return false;">Google Scholar profile</a>)<br>
+<big><big>
+<small><small>Click for abstract/informal discussion of
+results</small></small></big></big><br>
+<ol>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/persistentlocal.html">Local Differential Privacy for Evolving Data</a>. Joint with <a href="http://www.cis.upenn.edu/~majos">Matthew Joseph</a>, <a href="http://www.ccs.neu.edu/home/jullman/">Jon Ullman</a>, and <a href="http://www.bowaggoner.com/index.html">Bo Waggoner</a>. Manuscript. </li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/unknownmetric.html">Online Learning with an Unknown Fairness Metric</a>. Joint with <a href="https://www.math.upenn.edu/people/stephen-gillen">Stephen Gillen</a>, <a href="http://www.cis.upenn.edu/~chrjung/">Christopher Jung</a>, and  <a href="http://www.cis.upenn.edu/~mkearns/">Michael Kearns</a>. Manuscript.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/greedybandits.html">A Smoothed Analysis of the Greedy Algorithm for the Linear Contextual Bandit Problem</a>. Joint with <a href="https://www.cis.upenn.edu/~kannan/">Sampath Kannan</a>, <a href="http://jamiemorgenstern.com/">Jamie Morgenstern</a>, <a href="http://www.bowaggoner.com/index.html">Bo Waggoner</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. Manuscript.</li>
+ 
+<li><a href="http://www.cis.upenn.edu/~aaroth/adaptivegather.html">Mitigating Bias in Adaptive Data Gathering via Differential Privacy</a>. Joint with <a href="https://sethstatistics.wordpress.com/">Seth Neel</a>. To appear in ICML 2018. </li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/fairnessgerrymandering.html">Preventing Fairness Gerrymandering: Auditing and Learning for Subgroup Fairness</a>. Joint with <a href="http://www.cis.upenn.edu/~mkearns/">Michael Kearns</a>, <a href="https://sethstatistics.wordpress.com/">Seth Neel</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. To appear in ICML 2018.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/strategiclearning.html">Strategic Classification from Revealed Preferences</a>. Joint with <a href="https://www.math.upenn.edu/~jinshuo/">Jinshuo Dong</a>, <a href="http://www.cis.upenn.edu/~ianzach">Zachary Schutzman</a>, <a href="http://www.bowaggoner.com/index.html">Bo Waggoner</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. To appear in EC 2018.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/accuracyfirst.html">Accuracy First: Selecting a Differential Privacy Level for Accuracy-Constrained ERM</a>. Joint with <a href="http://users.cms.caltech.edu/~katrina/">Katrina Ligett</a>, <a href="https://sethstatistics.wordpress.com/">Seth Neel</a>, <a href="http://www.bowaggoner.com/index.html">Bo Waggoner</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>.  In the proceedings of NIPS 2017.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/incentfairness.html">Fairness Incentives for Myopic Agents</a>. Joint with <a href="http://www.cis.upenn.edu/~kannan/">Sampath Kannan</a>, <a href="http://www.cis.upenn.edu/~mkearns/">Michael Kearns</a>, <a href="http://jamiemorgenstern.com/">Jamie Morgenstern</a>, <a href="https://sites.google.com/view/malleshpai/">Mallesh Pai</a>, <a href="https://economics.sas.upenn.edu/faculty/rakesh-vohra">Rakesh Vohra</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of EC 2017.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/dynamicpricing.html">Multidimensional Dynamic Pricing for Welfare Maximization</a>. Joint with <a href="https://www.microsoft.com/en-us/research/people/slivkins/">Alex Slivkins</a>, <a href="http://www.ccs.neu.edu/home/jullman/">Jon Ullman</a> and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of EC 2017.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/fairbandits.html">Fairness in Learning: Classic and Contextual Bandits</a>. Joint with <a href="http://www.cis.upenn.edu/~majos">Matthew Joseph</a>, <a href="http://jamiemorgenstern.com/">Jamie Morgenstern</a>, and <a href="http://www.cis.upenn.edu/~mkearns/">Michael Kearns</a>. In the proceedings of NIPS 2016.</li>
+
+ <li><a href="http://www.cis.upenn.edu/~aaroth/robustmediators.html">Robust Mediators in Large Games</a>. Joint with <a href="http://www.cis.upenn.edu/~mkearns/">Michael Kearns</a>, <a href="https://sites.google.com/view/malleshpai/">Mallesh Pai</a>, <a href="http://hans.math.upenn.edu/~ryrogers/">Ryan Rogers</a>, and <a href="http://people.seas.harvard.edu/~jullman/">Jon Ullman</a>. Manuscript. (This paper subsumes both "Mechanism Design in Large Games: Incentives and Privacy" which appeared in ITCS 2014, and "Asymptotically Truthful Equilibrium Selection" which appeared in EC 2014).</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/postselection.html">Max-Information, Differential Privacy, and Post-Selection Hypothesis Testing</a>. Joint with <a href="http://hans.math.upenn.edu/~ryrogers/">Ryan Rogers</a>, <a href="http://www.cse.psu.edu/~ads22/">Adam Smith</a>, and <a href="http://www.cse.psu.edu/~odt100/">Om Thakkar</a>. In the proceedings of FOCS 2016. </li>
+
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/pricesmarkets.html">Do Prices Coordinate Markets?</a>. Joint work with <a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a>, <a href="http://jamiemorgenstern.com/">Jamie Morgenstern</a>, <a href="http://hans.math.upenn.edu/~ryrogers/">Ryan Rogers</a>, and <a href="https://economics.sas.upenn.edu/faculty/rakesh-vohra">Rakesh Vohra</a>. In the proceedings of STOC 2016.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/watchlearn.html">Watch and Learn: Optimizing from Revealed Preferences Feedback</a>. Joint with <a href="http://www.ccs.neu.edu/home/jullman/">Jon Ullman</a> and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of STOC 2016.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/protected.html">Private Algorithms for the Protected in Social Network Search</a>. Joint with <a href="http://www.cis.upenn.edu/~mkearns/">Michael Kearns</a>, <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>, and <a href="http://grigory.us/">Grigory Yaroslavtsev</a>. In <i>Proceedings of the National Academy of Sciences (PNAS)</i>, January 2016.</li>
+
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/jointlyconvex.html">Jointly Private Convex Programming</a>. Joint work with <a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a>, <a href="http://i.cs.hku.hk/~zhiyi/">Zhiyi Huang</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of SODA 2016.</li>
+
+<li><a href="http://www.cis.upenn.edu/~aaroth/reusable.html">The Reusable Holdout: Preserving Validity in Adaptive Data Analysis</a>. Joint work with <a href="http://research.microsoft.com/en-us/people/dwork/">Cynthia Dwork</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-vitaly">Vitaly Feldman</a>, <a href="http://www.moritzhardt.com/">Moritz Hardt</a>, <a href="http://www.cs.toronto.edu/~toni/">Toniann Pitassi</a>, and <a href="http://omereingold.wordpress.com/">Omer Reingold</a>. In <i>Science</i>, August 7 2015.</li> 
+ 
+<li><a href="http://www.cis.upenn.edu/~aaroth/statisticalvalidity.html">Preserving Statistical Validity in Adaptive Data Analysis</a>. Joint work with <a href="http://research.microsoft.com/en-us/people/dwork/">Cynthia Dwork</a>, <a href="http://researcher.watson.ibm.com/researcher/view.php?person=us-vitaly">Vitaly Feldman</a>, <a href="http://www.moritzhardt.com/">Moritz Hardt</a>, <a href="http://www.cs.toronto.edu/~toni/">Toniann Pitassi</a>, and <a href="http://omereingold.wordpress.com/">Omer Reingold</a>. In the proceedings of STOC 2015.
+
+
+ </li><li><a href="http://www.cis.upenn.edu/~aaroth/stablematching.html">Approximately Stable, School Optimal, and Student-Truthful Many-to-One Matchings (via Differential Privacy)</a>. Joint with <a href="http://www.cis.upenn.edu/~kannan/">Sampath Kannan</a>, <a href="http://jamiemorgenstern.com/">Jamie Morgenstern</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of SODA 2015.</li>
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/dualquery.html">Dual Query: Practical Private Query Release for High Dimensional Data</a>. Joint work with <a href="http://www.cs.unibo.it/~gaboardi/">Marco Gaboradi</a>, <a href="https://cis.upenn.edu/~emilioga/">Emilio Jesús Gallego Arias</a>, <a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of  ICML 2014.</li>
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/privateallocation.html">Private Matchings and Allocations</a>. Joint work with <a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a>, <a href="http://i.cs.hku.hk/~zhiyi/">Zhiyi Huang</a>, <a href="http://theory.stanford.edu/~tim/">Tim Roughgarden</a>, and <a href="https://www-users.cs.umn.edu/~zsw/">Steven Wu</a>. In the proceedings of STOC 2014.</li>
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/singularvectors.html">Beyond Worst-Case Analysis in Private Singular Vector Computation</a>. Joint with <a href="http://www.cs.princeton.edu/~mhardt/">Moritz Hardt</a>. In the proceedings of STOC 2013.</li>
+
+ <li><a href="http://www.cis.upenn.edu/~aaroth/analystprivacy.html">Differential Privacy for the Analyst via Private Equilibrium Computation</a>. Joint with <a href="http://www.cis.upenn.edu/~justhsu/">Justin Hsu</a> and <a href="http://people.seas.harvard.edu/~jullman/">Jon Ullman</a>. In the proceedings of STOC 2013.</li>
+
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/SQconjunctions.html">Privately Releasing Conjunctions and the Statistical Query Barrier</a>. Joint with <a href="http://www.cs.cmu.edu/~anupamg/">Anupam
+Gupta</a>, <a href="http://www.cs.princeton.edu/~mhardt/">Moritz Hardt</a>, and <a href="http://people.seas.harvard.edu/~jullman/">Jonathan Ullman</a>. In the proceedings of STOC 2011.<br> Full version appears in SIAM Journal on Computing (SICOMP) 2013.</li>
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/privacyauction.html">Selling Privacy at Auction</a>. Joint work with <a href="http://www.arpitaghosh.com/">Arpita Ghosh</a>. In the proceedings of EC 2011. <br>Invited to a special issue of Games and Economic Behavior (GEB) 2013. 
+  </li>
+ 
+<li><a href="http://www.cis.upenn.edu/~aaroth/onlineprivacy.html">Interactive Privacy via the Median Mechanism</a>.
+Joint with <a href="http://theory.stanford.edu/~tim/">Tim
+Roughgarden</a>. In the proceedings of STOC 2010.</li>
+
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/learningprivacy.html">A Learning
+Theory Approach to Non-Interactive Database
+Privacy</a>. Joint with <a href="http://www.cs.cmu.edu/~avrim/">Avrim
+Blum</a>
+and <a href="http://users.cms.caltech.edu/~katrina/">Katrina
+Ligett</a>. In the proceedings
+of STOC 2008: The 40th ACM Symposium on the Theory of Computing.<br> Full version appears in Journal of the ACM (JACM) 2013.</li>
+
+  <li><a href="http://www.cis.upenn.edu/~aaroth/regretminimization.html">Regret
+Minimization and the Price of Total Anarchy</a>. Joint
+with <a href="http://www.cs.cmu.edu/~avrim/">Avrim Blum</a>, <a href="http://www.mit.edu/~hajiagha/">MohammadTaghi
+Hajiaghayi</a>, and<a href="http://users.cms.caltech.edu/~katrina/">
+Katrina Ligett</a>. In the
+proceedings of STOC 2008: The 40th ACM Symposium on the Theory of
+Computing.</li>
+</ol>
+
+<big><big>Professional Activities</big></big><br>
+<br>
+Workshops, Tutorials, Interviews, and Panels:
+<ul>
+  <li><a href="https://theory.eecs.northwestern.edu/events/algorithmic-fairness/">Northwestern Quarterly Theory Workshop: Algorithmic Fairness</a>. June 8, 2018. (Co-organizer: Jason Hartline)</li>
+  <li><a href="https://rosenbach.org/events/flash-focus/">In Conversation with the Rosenbach: Flash Focus on Privacy and the Internet</a>. May 17, 2018.</li>
+  <li><a href="https://twimlai.com/twiml-talk-132-differential-privacy-theory-practice-with-aaron-roth/">Differential Privacy Interview with ``This Week in Machine Learning'' (TWIML)</a>. (Click for audio).  April 30, 2018. </li>
+  <li><a href="http://www.upenn.edu/teachin/">Penn Teach In Panel: "The Future of Technology: Artificial Intelligence and Society"</a>. Video <a href="https://youtu.be/z57RtypE68w?t=1h33m39s">here</a>. Philadelphia, March 20 2018. </li>
+  <li><a href="https://cra.org/ccc/events/fair-representations-fair-interactive-learning/">CCC Workshop on Fair Representations and Fair Interactive Learning</a>. Philadelphia, March 18-19 2018. (Co-organizer Alexandra Chouldechova)</li>
+  <li><a href="https://sites.google.com/view/fairnessconfererencepenn">Fairness for Digital infrastructure</a>. University of Pennsylvania, January 19-20, 2017.</li>
+  <li><a href="https://www.law.upenn.edu/newsevents/calendar.php#event_id/53309/view/event">Tutorial on Machine Learning and Unfairness</a> (Part of the <a href="https://www.law.upenn.edu/institutes/ppr/optimizing-government-project/">Optimizing Government</a> series). September 22, 2016. (<a href="https://www.law.upenn.edu/institutes/ppr/optimizing-government-project/media.php">video</a>.)</li>
+  <li><a href="http://wadapt.org/">NIPS 2016 Workshop on Adaptive Data Analysis</a>, held in conjunction with NIPS 2016. (Co-organizers: Adam Smith, Vitaly Feldman, Aaditya Ramdas)</li>
+  <li><a href="http://icml.cc/2016/?page_id=97">Invited ICML 2016 Tutorial: Rigorous Data Dredging: Theory and Tools for Adaptive Data Analysis</a>. June 19, 2016. (<a href="http://www.cis.upenn.edu/~aaroth/Papers/icmltutorial.pptx">Slides (Powerpoint)</a> and <a href="http://techtalks.tv/talks/rigorous-data-dredging-theory-and-tools-for-adaptive-data-analysis/62362/">video</a>.)</li>
+  <li><a href="http://csnexus.info/secrecy.html">Nexus of Information and Computation: Security and Privacy</a> March 21-April 1 2016. (Co-organizers: Prakash Narayan, Anand Sarwate,Vinod Vaikuntanathan, Salil Vadhan). </li> 
+  <li><a href="http://wadapt.org/">NIPS 2015 Workshop on Adaptive Data Analysis</a>, held in conjunction with NIPS 2015. (Co-organizers: Adam Smith, Vitaly Feldman, Moritz Hardt)</li>
+  <li><a href="https://sites.google.com/site/agtanddatascienceworkshop2015/">The First Workshop on Algorithmic Game Theory and Data Science</a>, held in conjunction with EC, June 15, 2015. (Co-organizers: Shuchi Chawla, Hu Fu, Jason Hartline, Denis Nekipelov, Kane Sweeney)</li>
+  <li><a href="https://aaas.confex.com/aaas/2015/webprogram/Session9556.html">An Introduction to Differential Privacy</a> February 14, 2015. The Annual Meeting of the American Association for the Advancement of Science (AAAS) (Tutorial)</li>
+  <li><a href="http://www.sigecom.org/ec14/schedule_workshops.html">Tutorial on Privacy, Information Economics, and Mechanism Design</a>, held in conjunction with EC, June 9, 2014. (Co-tutors: Cynthia Dwork and Mallesh Pai)</li>
+  <li><a href="http://www.cis.upenn.edu/~aaroth/privacyeconec13.html">Workshop on Privacy and Economics, held in Conjunction with EC</a> June 16, 2013. (Organized together with Katrina Ligett)</li>
+  <li><a href="http://econandsocialsciences.eventbrite.com/">Differential Privacy and Economics and the Social Sciences</a> March 7, 2013. Open to the public! (Tutorial)</li>
+  <li> <a href="http://dimacs.rutgers.edu/Workshops/DifferentialPrivacy/">DIMACS Workshop on Recent Work on Differential Privacy across Computer Science</a> Oct. 24-26, 2012. (Organized together with Adam Smith)</li>
+  <li> <a href="https://sites.google.com/site/nyce1212/">New York Computer Science and Economics Day V</a>: The Economics of Big Data, Information, and Privacy. (Organized together with Dirk Bergemann, Sham Kakade, and Nitish Korula)</li>
+</ul>
+Program Committee Member For:
+<ul>
+  <li>AAAI 2019 (Senior Program Committee)</li>
+  <li>NIPS 2018 (Area Chair)</li>
+  <li>ICML 2018 (Area Chair)</li>
+  <li><a href="http://www.fatml.org/schedule/2017/organizers">FATML 2017</a>, <a href="https://fatconference.org/2018/cfp.html">FAT* 2018</a> (Theory and Security Track Chair)</li>
+  <li><a href="https://www2018.thewebconf.org/call-for-papers/research-tracks-cfp/web-economics/">WWW 2018 ``Economics and Markets''</a> (Track Chair)</li>
+  <li><a href="http://www.mlandthelaw.org/">NIPS Symposium on Machine Learning and the Law 2016</a></li>
+  <li><a href="http://www.learningtheory.org/colt2016/the-conference/committee/">COLT 2016</a>, <a href="http://www.learningtheory.org/colt2017/the-conference/organizers/">COLT 2017</a></li>
+  <li><a href="http://theory.csail.mit.edu/ITCS2016/">ITCS 2016</a></li>
+  <li><a href="http://cui.unige.ch/tcs/random-approx/2015/index.php">Random 2015</a></li>
+  <li><a href="http://netecon.eurecom.fr/NetEcon2015/">NetEcon 2015</a> (PC chair)</li>
+  <li><a href="http://tpdp.computing.dundee.ac.uk/">TPDP 2015</a> (Organizing Committee), <a href="http://tpdp16.cse.buffalo.edu/">TPDP 2016</a> </li>
+  <li> <a href="http://wine13.seas.harvard.edu/">WINE 2013</a>, <a href="http://wine2014.amss.ac.cn/dct/page/70007">WINE 2014</a></li>
+  <li> <a href="http://www.sigmod.org/2013/org_pods_pc.shtml">PODS 2013</a></li>
+  <li> <a href="http://www.siam.org/meetings/da13/">SODA 2013</a></li>
+  <li> <a href="http://www.gamesec-conf.org/cfp2012.php">GameSec 2012</a></li>
+  <li> <a href="http://theory.stanford.edu/~tim/focs12/">FOCS 2012</a>, <a href="http://www.boazbarak.org/focs14/">FOCS 2014</a></li>
+  <li> EC 2011, 2012, 2013, 2014, 2015, 2016 (SPC), 2017, 2018</li>
+</ul>
+<br>
+
+
+<big><big>Presentations</big></big><br> (Slides Available Upon Request)
+<ul>
+<li>Preventing Fairness Gerrymandering in Machine Learning.</li>
+<ul>
+  <li> Northwestern Quarterly Theory Workshop: Algorithmic Fairness. June, 2018.</li>
+  <li> 6th Annual Computer Science and Law Roundtable, Penn Law School. May, 2018.</li>
+</ul>
+
+<li>Computational Perspectives on Biology and the Scientific Method.</li>
+  <ul>
+    <li>"Towards a New Theoretical Biology" Workshop, University of Pennsylvania. April, 2018.</li>
+  </ul>
+
+<li>Privacy and Fairness: Explaining Problems and Technical Solutions.</li>
+  <ul>
+    <li>National Academy of Science,  Roundtable on Integrating Ethics and Privacy Concerns into Data Science Education. December, 2017. </li>
+  </ul>
+
+<li>A Smoothed Analysis of the Greedy Algorithm for Linear Contextual Bandits.</li>
+  <ul>
+    <li>Microsoft Research, New York City. July, 2017.</li>
+  </ul>
+
+<li>Weakly Meritocratic Fairness in Machine Learning</li>
+  <ul>
+    <li>GREAT: Greece Workshop on Economic and Algorithmic Theory. July, 2017.</li>
+    <li>Simons Differential Privacy Planning Workshop. May, 2017.</li>
+  </ul>
+
+<li>Approximately Stable, School Optimal, Student-Truthful Many-to-One Matchings (via Differential Privacy)</li>
+  <ul>
+    <li>University of Wisconsin Economics Department Theory Seminar. November, 2017.</li>
+    <li>Simons Differential Privacy Planning Workshop. May, 2017.</li>
+    <li>MATCH-UP 2017. April, 2017.</li>
+  </ul>
+
+<li>Fairness in Learning: Classic and Contextual Bandits.</li>
+  <ul>
+    <li>Stanford RAIN Seminar. April, 2017.</li>
+    <li>MIT EECS Theory of Computation Colloquium. February, 2017.</li>
+    <li>Institute for Advanced Study Computer Science and Discrete Math Seminar. January, 2017. (<a href="https://www.youtube.com/watch?v=tBpd4Ix4BYM">video</a>.)</li>
+  </ul>
+
+<li>Tradeoffs Between Fairness and Accuracy in Machine Learning</li>
+   <ul>
+     <li>NIPS Symposium on Machine Learning and the Law 2016. December, 2016.</li>
+     <li>Harvard Law School, "Defining Fairness" Workshop. November, 2016.</li>
+     <li>Yale Econ/CS Seminar ("Designing the Digital Economy") (<a href="http://www.cis.upenn.edu/~aaroth/Papers/fairtradeoffs.pptx">Slides</a>)</li>
+   </ul>
+
+<li>What is Machine Learning (And Why Might it be Unfair?)</li>
+  <ul>
+    <li>Penn Law School. September, 2016. (<a href="https://www.law.upenn.edu/institutes/ppr/optimizing-government-project/media.php">video</a>)</li>
+    <li>Department of Defense/Department of Veterans Affairs Predictive Analytics and Suicide Risk Research Roundtable. February, 2018. </li>
+  </ul>
+
+  <li>Rigorous Data Dredging: Theory and Tools for Adaptive Data Analysis</li>
+
+  <ul>
+    <li>Joint Statistical Meetings: Session on the Stability Principle. August, 2017.</li>
+    <li>Goldman Sachs Engineering Insights Series. February, 2017.</li>
+    <li>NIPS 2016 Workshop on Adaptive Data Analysis. December, 2016.</li>
+    <li>Institute for Advanced Study: Four Facets of Differential Privacy. November, 2016. (<a href="https://www.youtube.com/watch?v=9mqXjdnZA18">video here</a>)</li>
+    <li>Universite Laval Big Data Colloqium. October, 2016.</li>
+    <li>Penn Statistics Department Seminar. September, 2016.</li>
+    <li>PCMI Graduate Summer School: The Mathematics of Data. Park City, Utah. July 2016.</li>
+    <li>Data Linkage and Anonymization Kickoff Event, Isaac Newton Center, Cambridge UK. July 2016.</li>
+    <li>ICML 2016 Tutorial (<a href="http://www.cis.upenn.edu/~aaroth/Papers/icmltutorial.pptx">Slides (Powerpoint)</a> and <a href="http://techtalks.tv/talks/rigorous-data-dredging-theory-and-tools-for-adaptive-data-analysis/62362/">video</a>)</li>
+  </ul>
+
+  <li>A Whirlwind Tour of Differential Privacy (With Applications to Generalization and Game Theory)</li>
+  <ul>
+    <li>Google Research, New York, 2016.
+  </li></ul>
+
+  <li>When do Prices Coordinate Markets?</li>
+  <ul>
+    <li>Penn State Theory Seminar, 2015.</li>
+    <li>Workshop on Complexity and Simplicity in Economics, Simons Institute for the Theory of Computing, 2015. (<a href="https://youtu.be/ZP5GeQx6QRE">video here</a>)</li>
+    <li>Harvard CRCS (Center for Research on Computation and Society) Seminar, 2015. (<a href="https://www.youtube.com/watch?v=Jk_vt3tNGcQ">video here</a>)</li>
+  </ul>
+  <li>Privacy as a Tool for Robust Mechanism Design in Large Markets</li>
+  <ul>
+    <li>PCMI Graduate Summer School: The Mathematics of Data. Park City, Utah. July 2016.</li>
+    <li>Caltech Workshop on the Theory of Bringing Privacy into Practice, 2015. (<a href="https://youtu.be/WKvyQHYCJHc?t=2h7m55s">video here</a>)</li>
+  </ul>
+  <li>Private Convex Optimization (Yields Asymptotically Truthful Combinatorial Auctions)</li>
+  <ul>
+    <li> Cornell Joint Microeconomics and Computer Science Theory Seminar, 2014.</li>
+    <li> Penn State Department Colloquium, 2014.</li>
+    <li> NIPS Workshop on Transactional Machine Learning, 2014.</li>
+    <li> ISMP 2015 Invited Speaker, 2015.</li>
+  </ul>
+  <li>Preserving Statistical Validity in Adaptive Data Analysis</li>
+  <ul>
+    <li> MIT/MSR Theory Day, 2014.</li>
+    <li> Yahoo Research NYC Theory Seminar, 2014.</li>
+    <li> Johns Hopkins Theory Seminar, 2014.</li>
+    <li> TCS+ seminar, 2015. (<a href="https://www.youtube.com/watch?v=sTKHAuAkuv8">video here</a>)</li>
+    <li> Bloomberg Research, Princeton Campus, 2015.</li>
+    <li> BICOD 2015 Invited Lecture, 2015.</li>
+    <li> Clinical Epidemiology/Health Services Research Seminar, Penn Medical School, 2015.</li> 
+    <li> Penn Applied Mathematics and Computational Science (AMCS) Colloquium. 2015.</li>
+  </ul>
+  <li>Private Matchings and Allocations</li>
+  <ul>
+    <li>Allerton 2013</li>
+    <li>Charles River Privacy Day 2013</li>
+    <li>Princeton Theory Lunch 2013</li>
+    <li>Rutgers Theory Seminar 2014</li>
+  </ul>
+  <li>Tutorial on Differential Privacy</li>
+  <ul>
+    <li>Simons Workshop on the Science of Differential Privacy 2013</li>
+    <li>American Association for the Advancement of Science (AAAS) Annual Meeting 2015 (see <a href="http://www.upenn.edu/pennnews/news/introduction-differential-privacy-penn-professor-aaron-roth">coverage</a>)</li>
+    <li>MLConf NYC 2017. (<a href="https://youtu.be/JHH5Azv3bl4">video here</a>.)</li>
+    <li>Hot Topics on the Science of Security (HoTSoS 2017) Keynote Talk.</li>
+    <li>High Confidence Software and Systems Conference (HCSS 2017) Keynote Talk.</li>
+    <li>MIT LIDS Smart Urban Infrastructures Workshop. 2017.</li>
+  </ul>
+  <li>Tutorial on Game Theory and Differential Privacy</li>
+  <ul>
+    <li>WPin+NetEcon 2014</li>
+    <li>EC 2014 Tutorial on Differential Privacy, Mechanism Design, and Information Economics</li>
+    <li>EC 2013 Workshop on Differential Privacy and Mechanism Design</li>
+    <li>DIMACS Differential Privacy Workshop 2012. (<a href="https://youtu.be/kqQ2qv0fYtQ">video here</a>)</li>
+  </ul>
+  <li>Mechanism Design in Large Games: Privacy and Incentives</li>
+  <ul>
+    <li>FOCS 2012 PC Workshop</li>
+    <li>USC Theory Seminar</li>
+    <li>IBM TJ Watson Theory Seminar</li>
+    <li>University of Maryland Capital Area Theory Seminar</li>
+    <li>DIMACS Differential Privacy Workshop</li>
+    <li>Stanford Market Design Seminar</li>
+    <li>DIMACS Workshop on the Economics of Information Sharing</li>
+    <li>Dagstuhl Workshop on the Frontiers of Mechanism Design.</li>
+    <li>Caltech Workshop on Differential Privacy and Economics</li>
+  </ul>
+  <li>Exploiting Metric Structure for Efficient Private Query Release</li>
+  <ul>
+    <li>UCSD IDASH Differential Privacy Workshop</li>
+  </ul>
+  <li>Privately Releasing Conjunctions and the Statistical Query Barrier</li>
+  <ul>
+    <li> Microsoft Research Silicon Valley</li>
+    <li> Penn State Theory Seminar</li>
+    <li> MIT Theory Seminar</li>
+  </ul> 
+  <li> Selling Privacy at Auction</li>
+  <ul>
+    <li>Northwestern EECS Theory Seminar</li>
+    <li>Boston University Theory Seminar</li>
+  </ul>
+  <li>Interactive Privacy via the Median Mechanism</li>
+  <ul>
+    <li> STOC 2010 </li>
+    <li> Dartmouth Theory Seminar</li>
+  </ul>
+  <li>Efficient Computation Under the Constraints of Privacy And Incentives</li>
+  <ul>
+    <li>CMU Theory Seminar 2010</li>
+    <li>UPenn Market and Social Systems Engineering Lecture Series 2010</li>
+    <li>Yahoo Research, Santa Clara 2010</li>
+  </ul>
+  <li>On the Equilibria of Asynchronous Games</li>
+  <ul>
+    <li>Microsoft Research SVC</li>
+    <li>CMU Theory Lunch</li>
+    <li>China Theory Week 2009</li>
+    <li>SODA 2010</li>
+  </ul>
+  <li>Differentially Private Approximation Algorithms</li>
+  <ul>
+    <li>Microsoft Research New England</li>
+    <li>CMU Theory Lunch</li>
+    <li>Princeton Theory Lunch</li>
+    <li>SODA 2010</li>
+  </ul>
+  <li>Auctions with Online Supply</li>
+  <ul>
+    <li>EC 2010</li>
+    <li>Ad Auctions Workshop 2009</li>
+    <li>CMU Theory Lunch</li>
+    <li>Microsoft Research SVC</li>
+  </ul>
+  <li>A Learning Theory Approach to Non-Interactive Database
+Privacy</li>
+  <ul>
+    <li>Microsoft Live Labs Tech Talk</li>
+    <li>STOC 2008</li>
+    <li>Capital Area Theory Seminar (University of Maryland)</li>
+    <li>CMU/Microsoft Privacy Mindswap (Poster)</li>
+  </ul>
+  <li>Regret Minimization and the Price of Total Anarchy</li>
+  <ul>
+    <li>CMU Theory lunch</li>
+    <li>GAMES 2008: 3rd World Congress of the Game Theory Society</li>
+    <li>Harvard EconCS seminar</li>
+    <li>ISMP 2009<br>
+    </li>
+  </ul>
+</ul>
+<br>
+
+</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1751406-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>

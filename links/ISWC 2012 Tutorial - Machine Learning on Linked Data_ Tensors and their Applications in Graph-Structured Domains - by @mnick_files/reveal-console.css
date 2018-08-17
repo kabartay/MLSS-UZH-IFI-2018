@@ -1,0 +1,109 @@
+html {
+    height: 100%
+}
+
+body {
+    padding: 0;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    height: 96%;
+}
+
+div#console {
+	position: relative;
+    margin: 0;
+	height: 100%;
+}
+
+div#views {
+    float: left;
+    width: 16em;
+    margin-right: 1em;
+}
+
+div#blocker {
+    width: 16em;
+    height: 18em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: blocker;
+}
+
+iframe#slideView, iframe#preView {
+    width: 900px;
+    height: 600px;
+	-webkit-transform: scale(0.5);
+	-transform: scale(0.5);
+	position: relative;
+}
+
+iframe#slideView {
+	top:-150px;
+	left: -200px;
+}
+
+iframe#preView {
+	top:-450px;
+	left: -200px;
+}
+
+div#controls {
+    margin: 0;
+    height: 6%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #333;
+	color: #FFF;
+}
+
+div#controls a {
+	color: greenyellow;
+}
+
+div#prev {
+    float: left;
+	margin: 0em 2em;
+}
+
+div#next {
+    float: right;
+	margin: 0em 2em;
+}
+
+div#clock {
+	margin: 0em 2em;
+    text-align: center;
+    float: left;
+}
+
+div#timer {
+	margin: 0em 2em;
+    text-align: center;
+    float: right;
+}
+
+div.notes {
+	display: none;
+}
+
+.time-target {
+	font-size: 2em;
+	color: red;
+	font-weight: bold;
+}
+
+li {
+	margin: 1em 0em;
+}
+
+ul ul {
+	padding-left: 1em;
+	margin-left: 1em;
+}
+
+em {
+	color: royalblue;
+}

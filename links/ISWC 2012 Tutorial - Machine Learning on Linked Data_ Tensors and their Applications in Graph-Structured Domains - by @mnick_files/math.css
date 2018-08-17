@@ -1,0 +1,330 @@
+.slide-number {
+	font-weight: bold;
+	color: #fff;
+	opacity: 0.3;
+	font-size: 1em;
+	position: absolute;
+	font-size: 30px;
+	top: 30px;
+	left: 27px;
+}
+.reveal h2 {
+	color: gold;
+    text-shadow: 0px 2px 3px rgba(0,0,0,.3);
+}
+
+.reveal b, .reveal strong {
+	color: lightskyblue;
+}
+
+.reveal em {
+	color: greenyellow;
+	font-style: normal;
+}
+
+.MathJax_SVG SVG > g, 
+.MathJax_SVG_Display SVG > g { 
+	fill: #FFF; 
+   	stroke: none; 
+}
+
+.mtext {
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+.math-block object {
+	height: 100%;
+}
+
+.definition .MathJax_SVG SVG > g, 
+.definition .MathJax_SVG_Display SVG > g { 
+	fill: lightblue; 
+   	stroke: none; 
+}
+
+.frontface, .title {
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+
+	display: -moz-box;
+	-moz-box-align: center;
+	-moz-box-pack: center;
+	-moz-box-orient: vertical;
+
+	display: box;
+	box-align: center;
+	box-pack: center;
+	box-orient: vertical;
+
+	min-height: 600px;
+	position: relative;
+}
+
+.frontface h4, .title h4 {
+	color: lightblue;
+    text-shadow: 0px 2px 3px #000;
+}
+
+.title h1 {
+	font-size: 3em;
+}
+
+.title h4 {
+	color: gold;
+	font-size: 1.5em;
+}
+
+.title .social {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.title .authors {
+	margin-top: 3em;
+	font-size: 0.7em;
+    text-shadow: 0px 2px 3px #000;
+	line-height: 1em;
+}
+
+.title .authors a {
+	color: lightblue;
+}
+
+.title .footnote {
+	font-size: 0.4em;
+}
+
+ul li {
+	margin: .8em 0em;
+	line-height: 1.2em;
+}
+
+ul.tight li, .definition li, li ul li {
+	margin: 0.1em;
+}
+
+ol.agenda {
+	list-style-type: upper-roman;
+}
+
+.note-container {
+	position: relative;
+}
+
+.bottom-container {
+	position: absolute;
+	bottom: -1em;
+	text-align: center;
+	width: 100%;
+}
+
+aside.note {
+	font-size: 12pt;
+	text-align: left;
+	background-color: #333;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	line-height: 1em;
+	padding: 1em;
+	margin-left: 2em;
+	vertical-align: center;
+	float: right;
+	width: 150px;
+}
+
+hr {
+	border: thin dotted #fff;
+}
+
+.bottom-container aside.note {
+	width: auto;
+	float: none;
+	margin: auto;
+	display: inline-block;
+}
+
+
+.column {
+	display: inline-block;
+}
+
+.reveal table.math {
+	margin: auto;
+}
+
+.reveal table.math td {
+	vertical-align: middle;
+	padding: .1em .5em;
+}
+
+.reveal table.math .math-note td {
+	font-size: .75em;
+}
+
+.math-block, .math-plus {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+
+.math-plus {
+	margin: 0em .9em;
+}
+
+.reveal .references {
+	position: fixed;
+	bottom 0px;
+	color: lightblue;
+}
+
+.footnote, .references {
+	font-size: 0.7em;
+}
+
+.subnote-container {
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.subnote-wrapper  .math-plus{
+	top: -.7em;
+}
+
+.subnote {
+	position: absolute;
+	bottom: -1.5em;
+	font-size: 0.75em;
+	text-align: center;
+	width: 100%;
+}
+
+.y-subnote {
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	font-size: .6em;
+	left: -2.5em;
+	top: 50%;
+	margin-top: -2em;
+	margin-left: 1.5em;
+}
+
+.kontur-overlay {
+	font-size: 2em;
+	line-height: 1em;
+	color: gold;
+	font-weight: bold;
+	background-color: #333;
+	padding: 1em;
+	border-radius: 15px;
+	border: .1em solid #EEE;
+}
+
+.sc {
+	font-variant: small-caps;
+}
+
+.rdf {
+	font-family: 'PT Mono', monospace;
+	color: orange;
+	font-size: 1em;
+}
+
+.rel {
+	font-family: 'PT Mono', monospace;
+}
+
+.question {
+	color: orangered;
+}
+
+.definition, .box {
+	background-color: #333;
+	border: 1px solid lightblue;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.8);
+	display: inline-block;
+}
+
+.definition {
+	padding: 0.5em 1.5em;
+	text-align: center;
+	margin: 1em 0em;
+}
+
+.definition p {
+	color: white;
+	margin: auto;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+
+.txt {
+	text-align: left;
+}
+
+.definition table {
+	width: auto;
+	margin: auto;
+	text-align: left;
+}
+
+.model-viz {
+	display:none;
+	opacity:0;
+	position: relative;
+	padding: 0.5em 1.5em;
+	text-align: center;
+	margin: 1em 0em;
+	vertical-align: center;
+}
+
+.model-viz object {
+	height: 100%;
+}
+
+.lvexample {
+	position: relative;
+	display: none;
+	float: right;
+	padding: 0.5em;
+	margin-bottom: -170px;
+}
+
+.lvexample.observed {
+	color: greenyellow;
+	top: -110px;
+	left: 150px;
+}
+
+.lvexample.latent {
+	color: orangered;
+	top: 20px;
+	left: -400px;
+}
+.lvexample.observed .MathJax_SVG SVG > g {
+	stroke: greenyellow;
+	fill: greenyellow;
+}
+
+#lvexample-dependency {
+	-webkit-transform: rotate(90deg);
+}
+
+.explanatory, .predictive {
+	font-weight: bold;
+	color: lightskyblue;
+}
+
+#unfolding {
+	position: relative;
+	margin: auto;
+	left: 2em;
+}
+
+#unfolding td {
+	padding: 0em 1em;
+}

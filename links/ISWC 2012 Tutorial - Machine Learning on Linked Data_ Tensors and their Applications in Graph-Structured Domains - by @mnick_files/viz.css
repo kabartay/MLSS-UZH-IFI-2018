@@ -1,0 +1,399 @@
+.legend {
+	float:left;
+	font-size: 0.5em;
+	background-color: #333;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	padding: 0.3em 1em;
+	text-align: left;
+}
+
+.legend h4 {
+	font-size: .9em;
+	color: lightblue;
+}
+
+.legend ul, aside.note ul {
+	padding: 0 1em;
+	line-height: 1em;
+	list-style: none;
+}
+
+.legend svg.line-legend {
+	height: 5px;
+	width: 30px;
+}
+
+.legend svg.line-legend line {
+	stroke-width: 4px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+path.link,
+line.link
+{
+  fill: none;
+  stroke: #EEE;
+  stroke-width: 1.5px;
+}
+
+marker {
+	fill: #FFF;
+	stroke: #FFF;
+}
+
+marker#licensing, marker#presidentOf {
+  	fill: greenyellow;
+  	stroke: greenyellow;
+}
+
+marker#vicePresidentOf {
+  	fill: deepskyblue;
+  	stroke: deepskyblue;
+}
+
+path.link.licensing, 
+line.licensing,
+path.link.presidentOf,
+line.presidentOf 
+{
+  	stroke: greenyellow;
+}
+
+path.link.vicePresidentOf,
+line.vicePresidentOf
+{
+	stroke: deepskyblue;
+}
+
+path.link.resolved, 
+line.resolved,
+path.link.dislikes, 
+line.dislikes, 
+path.link.knows,
+line.knows
+{
+  stroke-dasharray: 0,2 1;
+}
+
+marker#likes {
+	stroke: magenta;
+	fill: magenta;
+}
+
+line.likes,
+path.link.likes {
+	stroke: magenta;
+}
+
+path.link.r2 {
+  stroke-dasharray: 0,2 1;
+  display: none;
+}
+
+path.link.unknown {
+  stroke-dasharray: 0,2 1;
+  display: none;
+}
+
+
+circle {
+  stroke: #555;
+  stroke-width: 1.5px;
+}
+
+circle.force {
+  fill: lightblue;
+}
+
+circle.unknown {
+	fill: orangered;
+}
+
+text {
+  font: .5em sans-serif;
+  pointer-events: none;
+  stroke: none;
+  fill: #fff;
+}
+
+text.shadow, text.linklabelshadow {
+  stroke: #222;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
+
+text.linklabelshadow {
+	display: none;
+}
+
+text.linktext {
+	font: .4em sans-serif;
+	font-color: #EEE;
+	display: none;
+}
+
+rect.linklabel {
+	stroke: #FFF;
+	fill: orange;
+	display: none;
+}
+
+text.linklabel {
+	fill: #EEE;
+	display: none;
+}
+
+.directedGraph text {
+	fill: lightgray;
+	text-shadow: 0 2px 3px #000;
+}
+
+.directedGraph circle {
+	stroke: #fff;
+	fill: #333;
+}
+
+.hierclust circle {
+	stroke: #eee;
+}
+
+.hierclust text {
+	fill: lightgray;
+	text-shadow: 0 2px 3px #000;
+}
+
+.chords text {
+	font 0.2em sans-serif;
+	fill: #fff;
+}
+
+.chords .circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+.chords .group path {
+  fill-opacity: .5;
+}
+
+.chords path.chord {
+  stroke: #000;
+  stroke-width: .25px;
+}
+
+.chords .circle:hover path.fade {
+  display: none;
+}
+
+.matrix rect.background,
+.matrix .column line, 
+.matrix .row line, 
+.matrix cell {
+	stroke: #FFF;
+	stroke-width: 2px;
+	opacity: 1;
+}
+
+.matrix rect.background {
+	fill: #666;
+}
+
+.matrix .cell {
+	fill: none;
+}
+
+.matrix-legend-block {
+	width: 1em;
+	height: 1em;
+	position: relative;
+	display: inline-block;
+	border: thin solid #fff;
+	vertical-align: middle;
+}
+
+.matrix .cell.val1 {
+	fill: #333;
+	filter: url(#dropshadow);
+}
+
+#matrix-graph-example {
+	position: relative;
+	top: -.7em;
+	left: 0em;
+}
+
+#matrix-multigraph .matrix {
+	margin: -.15em 0;
+}
+
+#matrix-multigraph .math-plus {
+	opacity: 0;
+}
+
+
+.barchart rect {
+	font: 10px sans-serif;
+	text-align: right;
+	padding: 3px;
+	color: white;
+	margin: 10px 0px;
+	stroke: #FFF;
+}
+
+.barchart line {
+	stroke-width: 1;
+	stroke: lightblue;
+	opacity: .3;
+}
+
+.barchart .axis {
+	stroke: #FFF;
+}
+
+.barchart text.rule {
+	font: 0.4em sans-serif;
+}
+
+.rickshaw_graph .x_tick {
+	border-left: 1px dotted rgba(255, 255, 255, .5);
+}
+
+.rickshaw_graph .annotation_line {
+	/*border-left: 2px solid rgba(173, 255, 47, .75);*/
+	border-left: 3px solid rgba(255, 255, 255, .75);
+}
+
+.rickshaw_annotation_timeline .annotation {
+	font-weight: bold;
+}
+
+.rickshaw_annotation_timeline .annotation .content::before {
+	content: none;
+}
+
+#chart-enron-patterns, #chart-enron-match {
+	width: 40%;
+	display: inline-block;
+	margin: 1em;
+}
+
+
+#viz-enron-time {
+	position: relative;
+}
+
+#chart-enron-time {
+	margin-top: 2em;
+}
+
+#legend-enron-time {
+	position: absolute;
+	top: 0;
+	opacity: .7;
+}
+
+#legend-enron-time .label {
+	opacity: 1;
+}
+
+#chart-nations-bar text.rule, #chart-umls-bar text.rule {
+	display: none;
+}
+
+#rescalAi {
+	display: none;
+	fill: deepskyblue;
+}
+
+#chart-iimb-cluster {
+	font-size: .25em;
+}
+
+#chart-iimb-results {
+	font-size: .5em;
+	line-height: 1.75em;
+	text-align: left;
+	vertical-align: middle;
+	padding: 1em 1em;
+	width:200px; 
+	display:inline-block;
+	position: absolute;
+	left:0;
+	top: 2em;
+	opacity: 0.95;
+}
+
+#chart-iimb-results td {
+	padding: 0em 1em;
+}
+
+#chart-iimb-results .level {
+	margin: 1em 0em;
+	font-weight: bold;
+	border-top: 2px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#mlexample1 {
+	border-top: 2px dotted white;
+}
+
+#mlexample1 path.link.firstName {
+  	stroke-dasharray: 0,2 1;
+}
+
+path.link.partyOfUnknown {
+  	stroke-dasharray: 0,2 1;
+}
+
+  /* sigma.js context : */
+.sigma-parent {
+    position: relative;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #222;
+    height: 500px;
+}
+
+.sigma-expand {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.buttons-container{
+    padding-bottom: 8px;
+    padding-top: 12px;
+}
+
+.scalechart {
+	background-color: #333;
+	padding: .1em 0.5em;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.7);
+}
+.scalechart, .scalechart svg {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+}
+
+.nvd3 path.domain {
+	stroke: #FFF;
+	stroke-width: 2px;
+}
+
+.nvd3 line.tick {
+	stroke: #FFF;
+}
+
+.nvtooltip, .nvtooltip h3 {
+	color: #333;
+}
