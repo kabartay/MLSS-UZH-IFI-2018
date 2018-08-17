@@ -10,7 +10,7 @@ List of Courses:
 
 * MON, June 25: [Introduction to Machine Learning](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/1-Introduction-to-Machine-Learning) (Lecturer: [Prof. Dr. Andreas Krause](https://las.inf.ethz.ch/krausea))	
 * TUE, June 26: Deep Learning with Py Torch (Dr. François Fleuret)	
-* TUE, June 26: Deep Learning for Natural Language Processing (Dr. Felipe Bravo-Marquez)	
+* TUE, June 26: Deep Learning for Natural Language Processing (Lecturer: [Dr. Felipe Bravo-Marquez](https://www.cs.waikato.ac.nz/~fbravoma/))	
 * WED, June 27: Sensorimotor Control and Deep Reinforcement Learning (Dr. Alexey Dosovitskiy)	
 * WED, June 27: Learning with Knowledge Graphs  and Causal Reasoning for Artificial Intelligence (Prof. Dr. Volker Tresp)	
 * THU, June 28: Tensor Methods for Large Scale Machine-Learning	(Jean Kossaifi)	
