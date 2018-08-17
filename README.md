@@ -6,9 +6,9 @@ The 2018 IfI Summer School is a week-long event for PhD students and research as
 
 The summer school took place June 25-29, 2018 at the University of Zurich, Department of Informatics.
 
-List of Courses
+List of Courses:
 
-* MON, June 25: Introduction to Machine Learning (Prof. Dr. Andreas Krause)	
+* MON, June 25: [Introduction to Machine Learning](#1-Introduction-to-Machine-Learning) (Prof. Dr. Andreas Krause)	
 * TUE, June 26: Deep Learning with Py Torch (Dr. François Fleuret)	
 * TUE, June 26: Deep Learning for Natural Language Processing (Dr. Felipe Bravo-Marquez)	
 * WED, June 27: Sensorimotor Control and Deep Reinforcement Learning (Dr. Alexey Dosovitskiy)	
