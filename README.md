@@ -8,7 +8,7 @@ The summer school took place June 25-29, 2018 at the University of Zurich, Depar
 
 List of Courses:
 
-* MON, June 25: [Introduction to Machine Learning](#1-introduction-to-machine-learning) (Prof. Dr. Andreas Krause)	
+* MON, June 25: [Introduction to Machine Learning](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/1-Introduction-to-Machine-Learning) (Prof. Dr. Andreas Krause)	
 * TUE, June 26: Deep Learning with Py Torch (Dr. François Fleuret)	
 * TUE, June 26: Deep Learning for Natural Language Processing (Dr. Felipe Bravo-Marquez)	
 * WED, June 27: Sensorimotor Control and Deep Reinforcement Learning (Dr. Alexey Dosovitskiy)	
