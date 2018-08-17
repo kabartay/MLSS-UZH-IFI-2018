@@ -1,4 +1,6 @@
 # Introduction to Machine Learning
-[Andreas Krause](https://las.inf.ethz.ch/krausea)
-[A Neural Network Playground](https://playground.tensorflow.org)
+
+Lecturer: [Andreas Krause](https://las.inf.ethz.ch/krausea)
+
+Useful playground: [A Neural Network Playground](https://playground.tensorflow.org)
 
