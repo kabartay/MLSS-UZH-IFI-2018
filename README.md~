@@ -12,7 +12,7 @@ List of Courses:
 * TUE, June 26: [Deep Learning with Py Torch](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/2b-Deep-Learning-with-PyTorch)(Lecturer: [Dr. François Fleuret](http://www.idiap.ch/~fleuret/index.html))	
 * TUE, June 26: [Deep Learning for Natural Language Processing](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/2a-Deep-Learning-for-Natural-Language-Processing) (Lecturer: [Dr. Felipe Bravo-Marquez](https://www.cs.waikato.ac.nz/~fbravoma/))	
 * WED, June 27: Sensorimotor Control and Deep Reinforcement Learning (Dr. Alexey Dosovitskiy)	
-* WED, June 27: Learning with Knowledge Graphs  and Causal Reasoning for Artificial Intelligence (Prof. Dr. Volker Tresp)	
+* WED, June 27: [Learning with Knowledge Graphs  and Causal Reasoning for Artificial Intelligence](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/3a-Learning-with-Knowledge-Graphs%20-and-Causal-Reasoning-for-Artificial-Intelligence) (Lecturer: [Prof. Dr. Volker Tresp](http://www.dbs.ifi.lmu.de/~tresp/))	
 * THU, June 28: Tensor Methods for Large Scale Machine-Learning	(Jean Kossaifi)	
 * THU, June 28: Machine Learning in Market Design (Prof. Dr. Jason Hartline)	
 * FRI, June 29: Machine Learning for Software Engineering (Prof. Dr. Alberto Bacchelli)	
