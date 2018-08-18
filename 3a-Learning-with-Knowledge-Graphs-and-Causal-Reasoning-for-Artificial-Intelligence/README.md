@@ -1,6 +1,6 @@
 # Learning with Knowledge Graphs  and Causal Reasoning for Artificial Intelligence
 
-In the first part I will cover recent work on learning with knowledge graphs. In the second part I will cover the two main causal theories of relevance for AI: Pearl's theory of causal and counterfactual inference and Rubin's causal model. [Link to detailed description (PDF, 139 KB)](#TrespCourse2.pdf)
+In the first part I will cover recent work on learning with knowledge graphs. In the second part I will cover the two main causal theories of relevance for AI: Pearl's theory of causal and counterfactual inference and Rubin's causal model. [Link to detailed description (PDF, 139 KB)](https://github.com/kabartay/MLSS-UZH-IFI-2018/blob/master/3a-Learning-with-Knowledge-Graphs-and-Causal-Reasoning-for-Artificial-Intelligence/TrespCourse2.pdf)
 
 Lecturer: [Prof. Dr. Volker Tresp](http://www.dbs.ifi.lmu.de/~tresp/)
 
