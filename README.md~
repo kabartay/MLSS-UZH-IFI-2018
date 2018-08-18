@@ -15,5 +15,5 @@ List of Courses:
 * WED, June 27: [Learning with Knowledge Graphs  and Causal Reasoning for Artificial Intelligence](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/3a-Learning-with-Knowledge-Graphs-and-Causal-Reasoning-for-Artificial-Intelligence) (Lecturer: [Prof. Dr. Volker Tresp](http://www.dbs.ifi.lmu.de/~tresp/))	
 * THU, June 28: [Tensor Methods for Large Scale Machine-Learning](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/4a-Tensor-Methods-for-Large-Scale-Machine-Learning) (Lecturer: [Jean Kossaifi](http://jeankossaifi.com/))	
 * THU, June 28: [Machine Learning in Market Design](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/4b-Machine-Learning-in-Market-Design) (Lecturer: [Prof. Dr. Jason Hartline](https://sites.northwestern.edu/hartline/))	
-* FRI, June 29: Machine Learning for Software Engineering (Prof. Dr. Alberto Bacchelli)	
-* FRI, June 29: Individual and Group Fairness in Machine Learning (Prof. Dr. Aaron Roth)	
+* FRI, June 29: [Machine Learning for Software Engineering] (Prof. Dr. Alberto Bacchelli)	
+* FRI, June 29: [Individual and Group Fairness in Machine Learning](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/5b-Individual-and-Group-Fairness-in-Machine-Learning) (Lecturer: [Prof. Dr. Aaron Roth](http://www.cis.upenn.edu/~aaroth/))	
