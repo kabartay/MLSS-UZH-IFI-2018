@@ -9,7 +9,7 @@ The summer school took place June 25-29, 2018 at the University of Zurich, Depar
 List of Courses:
 
 * MON, June 25: [Introduction to Machine Learning](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/1-Introduction-to-Machine-Learning) (Lecturer: [Prof. Dr. Andreas Krause](https://las.inf.ethz.ch/krausea))	
-* TUE, June 26: [Deep Learning with Py Torch](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/2b-Deep-Learning-with-PyTorch)(Lecturer: [Dr. François Fleuret](http://www.idiap.ch/~fleuret/index.html))	
+* TUE, June 26: [Deep Learning with Py Torch](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/2b-Deep-Learning-with-PyTorch) (Lecturer: [Dr. François Fleuret](http://www.idiap.ch/~fleuret/index.html))	
 * TUE, June 26: [Deep Learning for Natural Language Processing](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/2a-Deep-Learning-for-Natural-Language-Processing) (Lecturer: [Dr. Felipe Bravo-Marquez](https://www.cs.waikato.ac.nz/~fbravoma/))	
 * WED, June 27: [Sensorimotor Control and Deep Reinforcement Learning](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/3b-Sensorimotor-Control-and-Deep-Reinforcement-Learning) (Lecturer: [Dr. Alexey Dosovitskiy](https://scholar.google.com/citations?hl=en&user=FXNJRDoAAAAJ))	
 * WED, June 27: [Learning with Knowledge Graphs  and Causal Reasoning for Artificial Intelligence](https://github.com/kabartay/MLSS-UZH-IFI-2018/tree/master/3a-Learning-with-Knowledge-Graphs-and-Causal-Reasoning-for-Artificial-Intelligence) (Lecturer: [Prof. Dr. Volker Tresp](http://www.dbs.ifi.lmu.de/~tresp/))	

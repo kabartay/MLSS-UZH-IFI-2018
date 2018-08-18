@@ -1,6 +1,7 @@
 # Sensorimotor Control and Deep Reinforcement Learning
 
+Sensorimotor control - producing useful actions based on sensory inputs - is a crucial capability for intelligent agents, both natural and artificial. Recently, deep reinforcement learning has shown promising results on this task, for instance, in game playing (Atari and Go) and robotics (vision-based manipulation). In this course we will review a variety of modern approaches to sensorimotor control, with a focus on deep learning and deep reinforcement learning. On the deep reinforcement learning side, we will go from fundamentals to cutting edge algorithms, show successful applications, but also highlight shortcomings and failures. We will discuss algorithms deployed both in simulation and in the real world, as well as the exciting topic of transfer from simulation to the real world.
+
 Lecturer: [Dr. Alexey Dosovitskiy](https://scholar.google.com/citations?hl=en&user=FXNJRDoAAAAJ)
 
-
-
+Bio: Alexey Dosovitskiy is a research scientist at Intel Intelligent Systems Lab in Munich, Germany. His recent research focuses on deep learning, sensorimotor control, and simulation, with a particular focus on driving and navigation. Previously, he was a postdoctoral researcher at the Computer Vision Group of Prof. Thomas Brox at the University of Freiburg in Germany, contributing to multiple subfields at the intersection of deep learning and computer vision: unsupervised feature learning, image generation with neural networks, motion and 3D structure estimation with neural networks. He received MSc and PhD degrees in mathematics from Moscow State University in 2009 and 2012 respectively.
